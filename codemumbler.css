@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#home {
+	background: #AAA url("clear-skies.jpg") no-repeat fixed 20% 75%;
+	height: 747px;
+	color: white;
+}
+
+.intro {
+	left: 0;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 100%;
+}
+
+@media (min-width: 768px) { 
+	.intro h1 {
+		font-size: 25px;
+		letter-spacing: 5px;
+	}
+}
+
+@media (min-width: 992px) { 
+	.intro h1 {
+		font-size: 40px;
+		letter-spacing: 10px;
+	}
+}

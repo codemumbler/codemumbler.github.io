@@ -118,17 +118,10 @@ footer {
 		letter-spacing: 10px;
 	}
 	
-	#projects .section-content .row:nth-child(1) > div {
-		border-bottom: #63317A 1px dashed;
+	#projects .section-content .row:nth-child(2) > div {
+		border-bottom: #63317A 0 dashed;
 	}
-
-	#projects .section-content .row > div:nth-child(2) {
-		border-left: #63317A 1px solid;
-		border-right: #63317A 1px solid;
-	}
-}
-
-@media (min-width: 1200px) {
+	
 	#projects .section-content .row:nth-child(1) > div {
 		border-bottom: #63317A 1px dashed;
 	}

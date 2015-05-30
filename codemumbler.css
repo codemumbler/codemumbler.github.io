@@ -22,7 +22,7 @@
 }
 
 section {
-	height: 300px;
+	padding-bottom: 50px;
 }
 
 section h1 {
@@ -52,6 +52,22 @@ section h1 {
 .section-title h1 {
 	color: #63317A;
 	font-weight: 800;
+}
+
+.section-content .row > div {
+	padding: 20px;
+	background: rgb(255, 255, 255); 
+    background: rgba(255, 255, 255, .5);
+	height: 100px;
+}
+
+#projects .section-content .row:nth-child(1) > div {
+	border-bottom: #63317A 1px dashed;
+}
+
+#projects .section-content .row > div:nth-child(2) {
+	border-left: #63317A 1px solid;
+	border-right: #63317A 1px solid;
 }
 
 #projects {

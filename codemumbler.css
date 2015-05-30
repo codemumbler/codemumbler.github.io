@@ -96,16 +96,6 @@ footer {
 	color: #63317A;
 }
 
-#projects .section-content .row {
-	display: table;
-}
-
-#projects .section-content .row > div {
-    float: none;
-    display: table-cell;
-    vertical-align: top;
-}
-
 #projects .section-content .row > div:not(:last-child), 
 #projects .section-content .row:first-child > div:last-child {
 	border-bottom: #63317A 1px dashed;
@@ -139,5 +129,15 @@ footer {
 	#projects .section-content .row > div:nth-child(2) {
 		border-left: #63317A 1px solid;
 		border-right: #63317A 1px solid;
+	}
+	
+	#projects .section-content .row {
+		display: table;
+	}
+
+	#projects .section-content .row > div {
+		float: none;
+		display: table-cell;
+		vertical-align: top;
 	}
 }

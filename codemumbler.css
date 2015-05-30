@@ -96,6 +96,16 @@ footer {
 	color: #63317A;
 }
 
+#projects .section-content .row {
+	display: table;
+}
+
+#projects .section-content .row > div {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
 #projects .section-content .row > div:not(:last-child), 
 #projects .section-content .row:first-child > div:last-child {
 	border-bottom: #63317A 1px dashed;

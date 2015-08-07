@@ -4,9 +4,9 @@
 }
 
 #home {
-  background: #1D8C00  no-repeat fixed 20% 75%;
+  background: #1D8C00 no-repeat fixed 20% 75%;
   height: 747px;
-  color: white;
+  color: #DDD;
 }
 
 section {
@@ -39,20 +39,22 @@ section h1 {
 }
 
 .section-title h1 {
-  color: #2DD700;
+  color: #AAA;
+  /*#2DD700;*/
   font-weight: 800;
 }
 
 .section-content .row > div {
   padding: 20px;
-  background: rgb(29, 140, 0);
-  background: rgba(29, 140, 0, .7);
+  background: rgb(235, 235, 235);
+  background: rgba(235, 235, 235, .7);
   height: 100px;
 }
 
 #projects {
-  background: #1D8C00 url('abstract-313627_1280.jpg') no-repeat scroll 50% 0%;
+  background: #AAA url('abstract-313627_1280.jpg') no-repeat scroll 50% 0%;
 }
+/*#1D8C00*/
 
 #projects .section-title h1 {
   margin-top: 0;
@@ -110,8 +112,8 @@ section h1 {
  */
 footer {
   padding: 20px 0 10px;
-  color: white;
-  background-color: #1D8C00;
+  color: #DDD;
+  background-color: #2DD700;
 }
 
 .socials li a.github {
